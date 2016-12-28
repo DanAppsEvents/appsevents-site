@@ -1,6 +1,6 @@
 #Pinegrow backup files
 _pgbackup/*
-css/_pgbackup/*
+/assets/css/_pgbackup/*
 
 #Pinegrow setting file
 pinegrow.json
