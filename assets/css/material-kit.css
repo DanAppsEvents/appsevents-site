@@ -585,6 +585,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner
     color: #FFFFFF;
 }
 
+
 .btn.btn-warning:focus, .btn.btn-warning:active, .btn.btn-warning:hover,
 .navbar .navbar-nav > li > a.btn.btn-warning:focus,
 .navbar .navbar-nav > li > a.btn.btn-warning:active,
@@ -3074,7 +3075,6 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
     background-color: #FFFFFF;
     color: #555555;
 }
-
 
 .navbar .navbar-form .form-group input.form-control::-moz-placeholder,
 .navbar .navbar-form input.form-control::-moz-placeholder, .navbar.navbar-default .navbar-form .form-group input.form-control::-moz-placeholder,
