@@ -1,8 +1,0 @@
-# 1 Month for css-js
-<filesMatch ".(css|js)$">
-Header set Cache-Control "max-age=2592000, public"
-</filesMatch>
-# 6 Months for images
-<filesMatch ".(jpg|jpeg|png|gif|ico)$">
-Header set Cache-Control "max-age=15552000, public"
-</filesMatch>
