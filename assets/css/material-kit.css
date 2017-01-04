@@ -6348,7 +6348,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly]
 
 .features-5:after
 {
-    background: rgba(0, 0, 0, 0.55);
+    background: rgba(0, 0, 0, 0.7);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -6394,7 +6394,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly]
 
 .features-5 .container [class*="col-"]
 {
-    border: 1px solid rgba(255, 255, 255, 0.35);
+    border: 0px solid rgba(255, 255, 255, 0.35);
     border-top: 0;
 }
 
@@ -7989,7 +7989,7 @@ footer .pull-center
 .presentation-page .section-overview .features-5:after,
 .index-page .section-overview .features-5:after
 {
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .presentation-page .section-testimonials,
@@ -8709,4 +8709,3 @@ footer .pull-center
         margin-top: 15px;
     }
 }
-
