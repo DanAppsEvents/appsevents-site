@@ -585,7 +585,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner
     color: #FFFFFF;
 }
 
-
 .btn.btn-warning:focus, .btn.btn-warning:active, .btn.btn-warning:hover,
 .navbar .navbar-nav > li > a.btn.btn-warning:focus,
 .navbar .navbar-nav > li > a.btn.btn-warning:active,
@@ -6125,7 +6124,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly]
 
 .page-header
 {
-    height: 100vh;
+    min-height: 100vh;
     background-position: center center;
     background-size: cover;
     margin: 0;
@@ -6140,9 +6139,10 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly]
 
 .page-header .container
 {
-    padding-top: 30vh;
+    padding-top: 25vh;
     color: #FFFFFF;
 }
+
 
 .page-header .title
 {
@@ -8709,3 +8709,4 @@ footer .pull-center
         margin-top: 15px;
     }
 }
+
