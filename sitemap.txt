@@ -25,3 +25,4 @@ http://norway.appsevents.com
 http://prague2.appsevents.com
 http://doha.appsevents.com
 http://qatar.appsevents.com
+http://lithuania.appsevents.com
