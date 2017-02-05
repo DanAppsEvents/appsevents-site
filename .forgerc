@@ -1,2 +1,14 @@
 Location /uk
   Rewrite /uk-events.html
+  
+Location /uk-events
+  Rewrite /uk-events.html
+  
+Location /host-an-event
+  Rewrite /host-an-event.html
+  
+Location /submit-a-session
+  Rewrite /submit-a-session.html
+
+Location /meet-the-team
+  Rewrite /meet-the-team.html
