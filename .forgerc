@@ -12,3 +12,12 @@ Location /submit-a-session
 
 Location /meet-the-team
   Rewrite /meet-the-team.html
+  
+Location /demo-slam
+  Rewrite /demo-slam.html
+  
+Location /demoslam
+  Rewrite /demo-slam.html
+  
+Location /slam
+  Rewrite /demo-slam.html
