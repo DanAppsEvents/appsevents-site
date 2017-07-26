@@ -2538,6 +2538,11 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
     z-index: 100;
 }
 
+.form-control
+{
+  color: #444444; !important
+}
+
 .form-control-feedback
 {
     opacity: 0;
