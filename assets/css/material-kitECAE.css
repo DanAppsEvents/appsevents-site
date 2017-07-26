@@ -2058,7 +2058,7 @@ output
 .form-control,
 .form-group .form-control
 {
-    border: 0;
+    border: 2;
     background-image: linear-gradient(#184f9e, #184f9e), linear-gradient(#D2D2D2, #D2D2D2);
     background-size: 0 2px, 100% 1px;
     background-repeat: no-repeat;
@@ -8707,15 +8707,6 @@ footer .pull-center
     .subscribe-line .btn
     {
         margin-top: 15px;
-    }
-
-    input[type=text]
-    {
-      border: 2px solid #ccc; !important
-    }
-    input[type=text]:focus
-    {
-      border: 2px solid #ddd; !important
     }
 
 }
