@@ -141,7 +141,7 @@ input[type="submit"]::-moz-focus-inner,
 select::-moz-focus-inner,
 input[type="file"] > input[type="button"]::-moz-focus-inner
 {
-    outline: 0 !important;
+    outline: 0 ;
 }
 
 .form-horizontal .radio,
@@ -2058,38 +2058,38 @@ output
 .form-control,
 .form-group .form-control
 {
-    border: 0; !important
-    background-image: linear-gradient(#184f9e, #184f9e), linear-gradient(#D2D2D2, #D2D2D2); !important
-    background-size: 0 2px, 100% 1px; !important
-    background-repeat: no-repeat; !important
-    background-position: center bottom, center calc(100% - 1px); !important
-    background-color: transparent; !important
-    transition: background 0s ease-out; !important
-    float: none; !important
-    box-shadow: none; !important
-    border-radius: 0; !important
-    font-weight: 400; !important
+    border: 0;
+    background-image: linear-gradient(#184f9e, #184f9e), linear-gradient(#D2D2D2, #D2D2D2);
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center calc(100% - 1px);
+    background-color: transparent;
+    transition: background 0s ease-out;
+    float: none;
+    box-shadow: none;
+    border-radius: 0;
+    font-weight: 400;
 }
 
 .form-control::-moz-placeholder,
 .form-group .form-control::-moz-placeholder
 {
-    color: #aaaaaa; !important
-    font-weight: 400; !important
+    color: #aaaaaa;
+    font-weight: 400;
 }
 
 .form-control:-ms-input-placeholder,
 .form-group .form-control:-ms-input-placeholder
 {
-    color: #aaaaaa; !important
-    font-weight: 400; !important
+    color: #aaaaaa;
+    font-weight: 400;
 }
 
 .form-control::-webkit-input-placeholder,
 .form-group .form-control::-webkit-input-placeholder
 {
-    color: #aaaaaa; !important
-    font-weight: 400; !important
+    color: #aaaaaa;
+    font-weight: 400;
 }
 
 .form-control[readonly], .form-control[disabled], fieldset[disabled] .form-control,
@@ -2097,15 +2097,15 @@ output
 .form-group .form-control[disabled], fieldset[disabled]
 .form-group .form-control
 {
-    background-color: transparent; !important
+    background-color: transparent;
 }
 
 .form-control[disabled], fieldset[disabled] .form-control,
 .form-group .form-control[disabled], fieldset[disabled]
 .form-group .form-control
 {
-    background-image: none; !important
-    border-bottom: 1px dotted #D2D2D2; !important
+    background-image: none;
+    border-bottom: 1px dotted #D2D2D2;
 }
 
 .form-group
@@ -2138,46 +2138,46 @@ output
 
 .form-group.is-focused .form-control
 {
-    outline: none; !important
-    background-image: linear-gradient(#184f9e, #184f9e), linear-gradient(#D2D2D2, #D2D2D2); !important
-    background-size: 100% 2px, 100% 1px; !important
-    box-shadow: none; !important
-    transition-duration: 0.3s; !important
+    outline: none;
+    background-image: linear-gradient(#184f9e, #184f9e), linear-gradient(#D2D2D2, #D2D2D2);
+    background-size: 100% 2px, 100% 1px;
+    box-shadow: none;
+    transition-duration: 0.3s;
 }
 
 .form-group.is-focused .form-control .material-input:after
 {
-    background-color: #184f9e; !important
+    background-color: #184f9e;
 }
 
 .form-group.is-focused.form-info .form-control
 {
-    background-image: linear-gradient(#00bcd4, #00bcd4), linear-gradient(#D2D2D2, #D2D2D2); !important
+    background-image: linear-gradient(#00bcd4, #00bcd4), linear-gradient(#D2D2D2, #D2D2D2);
 }
 
 .form-group.is-focused.form-success .form-control
 {
-    background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#D2D2D2, #D2D2D2); !important
+    background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#D2D2D2, #D2D2D2);
 }
 
 .form-group.is-focused.form-warning .form-control
 {
-    background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#D2D2D2, #D2D2D2); !important
+    background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#D2D2D2, #D2D2D2);
 }
 
 .form-group.is-focused.form-danger .form-control
 {
-    background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2); !important
+    background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2);
 }
 
 .form-group.is-focused.form-rose .form-control
 {
-    background-image: linear-gradient(#e91e63, #e91e63), linear-gradient(#D2D2D2, #D2D2D2); !important
+    background-image: linear-gradient(#e91e63, #e91e63), linear-gradient(#D2D2D2, #D2D2D2);
 }
 
 .form-group.is-focused.form-white .form-control
 {
-    background-image: linear-gradient(#FFFFFF, #FFFFFF), linear-gradient(#D2D2D2, #D2D2D2); !important
+    background-image: linear-gradient(#FFFFFF, #FFFFFF), linear-gradient(#D2D2D2, #D2D2D2);
 }
 
 .form-group.is-focused.label-placeholder label,
@@ -2193,12 +2193,12 @@ output
 
 .form-group.has-warning .form-control
 {
-    box-shadow: none; !important
+    box-shadow: none;
 }
 
 .form-group.has-warning.is-focused .form-control
 {
-    background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#D2D2D2, #D2D2D2); !important
+    background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#D2D2D2, #D2D2D2);
 }
 
 .form-group.has-warning label.control-label,
@@ -2209,12 +2209,12 @@ output
 
 .form-group.has-error .form-control
 {
-    box-shadow: none; !important
+    box-shadow: none;
 }
 
 .form-group.has-error.is-focused .form-control
 {
-    background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2); !important
+    background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2);
 }
 
 .form-group.has-error label.control-label,
@@ -2225,12 +2225,12 @@ output
 
 .form-group.has-success .form-control
 {
-    box-shadow: none; !important
+    box-shadow: none;
 }
 
 .form-group.has-success.is-focused .form-control
 {
-    background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#D2D2D2, #D2D2D2); !important
+    background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#D2D2D2, #D2D2D2);
 }
 
 .form-group.has-success label.control-label,
@@ -2241,12 +2241,12 @@ output
 
 .form-group.has-info .form-control
 {
-    box-shadow: none; !important
+    box-shadow: none;
 }
 
 .form-group.has-info.is-focused .form-control
 {
-    background-image: linear-gradient(#00bcd4, #00bcd4), linear-gradient(#D2D2D2, #D2D2D2); !important
+    background-image: linear-gradient(#00bcd4, #00bcd4), linear-gradient(#D2D2D2, #D2D2D2);
 }
 
 .form-group.has-info label.control-label,
@@ -2262,7 +2262,7 @@ output
 
 .form-group textarea ~ .form-control-highlight
 {
-    margin-top: -11px; !important
+    margin-top: -11px;
 }
 
 .form-group select
@@ -2277,31 +2277,31 @@ output
 
 .form-control
 {
-    margin-bottom: 7px; !important
+    margin-bottom: 7px;
 }
 
 .form-control::-moz-placeholder
 {
-    font-size: 14px; !important
-    line-height: 1.42857; !important
-    color: #aaaaaa; !important
-    font-weight: 400; !important
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #aaaaaa;
+    font-weight: 400;
 }
 
 .form-control:-ms-input-placeholder
 {
-    font-size: 14px; !important
-    line-height: 1.42857; !important
-    color: #aaaaaa; !important
-    font-weight: 400; !important
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #aaaaaa;
+    font-weight: 400;
 }
 
 .form-control::-webkit-input-placeholder
 {
-    font-size: 14px; !important
-    line-height: 1.42857; !important
-    color: #aaaaaa; !important
-    font-weight: 400; !important
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #aaaaaa;
+    font-weight: 400;
 }
 
 .checkbox label,
@@ -2325,43 +2325,43 @@ label.control-label
 
 .help-block
 {
-    margin-top: 0; !important
-    font-size: 11px; !important
+    margin-top: 0;
+    font-size: 11px;
 }
 
 .form-group
 {
-    padding-bottom: 7px; !important
-    margin: 27px 0 0 0; !important
+    padding-bottom: 7px;
+    margin: 27px 0 0 0;
 }
 
 .form-group .form-control
 {
-    margin-bottom: 7px; !important
+    margin-bottom: 7px;
 }
 
 .form-group .form-control::-moz-placeholder
 {
-    font-size: 14px; !important
-    line-height: 1.42857; !important
-    color: #aaaaaa; !important
-    font-weight: 400; !important
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #aaaaaa;
+    font-weight: 400;
 }
 
 .form-group .form-control:-ms-input-placeholder
 {
-    font-size: 14px; !important
-    line-height: 1.42857; !important
-    color: #aaaaaa; !important
-    font-weight: 400; !important
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #aaaaaa;
+    font-weight: 400;
 }
 
 .form-group .form-control::-webkit-input-placeholder
 {
-    font-size: 14px; !important
-    line-height: 1.42857; !important
-    color: #aaaaaa; !important
-    font-weight: 400; !important
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #aaaaaa;
+    font-weight: 400;
 }
 
 .form-group .checkbox label,
@@ -2406,10 +2406,10 @@ label.control-label
 
 .form-group.label-floating input.form-control:-webkit-autofill ~ label.control-label label.control-label
 {
-    top: -28px; !important
-    left: 0; !important
-    font-size: 11px; !important
-    line-height: 1.07143; !important
+    top: -28px;
+    left: 0;
+    font-size: 11px;
+    line-height: 1.07143;
 }
 
 .form-group.form-group-sm
@@ -2420,31 +2420,31 @@ label.control-label
 
 .form-group.form-group-sm .form-control
 {
-    margin-bottom: 3px; !important
+    margin-bottom: 3px;
 }
 
 .form-group.form-group-sm .form-control::-moz-placeholder
 {
-    font-size: 11px; !important
-    line-height: 1.5; !important
-    color: #aaaaaa; !important
-    font-weight: 400; !important
+    font-size: 11px;
+    line-height: 1.5;
+    color: #aaaaaa;
+    font-weight: 400;
 }
 
 .form-group.form-group-sm .form-control:-ms-input-placeholder
 {
-    font-size: 11px; !important
-    line-height: 1.5; !important
-    color: #aaaaaa; !important
-    font-weight: 400; !important
+    font-size: 11px;
+    line-height: 1.5;
+    color: #aaaaaa;
+    font-weight: 400;
 }
 
 .form-group.form-group-sm .form-control::-webkit-input-placeholder
 {
-    font-size: 11px; !important
-    line-height: 1.5; !important
-    color: #aaaaaa; !important
-    font-weight: 400; !important
+    font-size: 11px;
+    line-height: 1.5;
+    color: #aaaaaa;
+    font-weight: 400;
 }
 
 .form-group.form-group-sm .checkbox label,
@@ -2489,10 +2489,10 @@ label.control-label
 
 .form-group.form-group-sm.label-floating input.form-control:-webkit-autofill ~ label.control-label label.control-label
 {
-    top: -25px; !important
-    left: 0; !important
-    font-size: 9px; !important
-    line-height: 1.125; !important
+    top: -25px;
+    left: 0;
+    font-size: 9px;
+    line-height: 1.125;
 }
 
 .form-group.form-group-lg
@@ -2503,31 +2503,31 @@ label.control-label
 
 .form-group.form-group-lg .form-control
 {
-    margin-bottom: 9px; !important
+    margin-bottom: 9px;
 }
 
 .form-group.form-group-lg .form-control::-moz-placeholder
 {
-    font-size: 18px; !important
-    line-height: 1.33333; !important
-    color: #aaaaaa; !important
-    font-weight: 400; !important
+    font-size: 18px;
+    line-height: 1.33333;
+    color: #aaaaaa;
+    font-weight: 400;
 }
 
 .form-group.form-group-lg .form-control:-ms-input-placeholder
 {
-    font-size: 18px; !important
-    line-height: 1.33333; !important
-    color: #aaaaaa; !important
-    font-weight: 400; !important
+    font-size: 18px;
+    line-height: 1.33333;
+    color: #aaaaaa;
+    font-weight: 400;
 }
 
 .form-group.form-group-lg .form-control::-webkit-input-placeholder
 {
-    font-size: 18px; !important
-    line-height: 1.33333; !important
-    color: #aaaaaa; !important
-    font-weight: 400; !important
+    font-size: 18px;
+    line-height: 1.33333;
+    color: #aaaaaa;
+    font-weight: 400;
 }
 
 .form-group.form-group-lg .checkbox label,
@@ -2572,28 +2572,28 @@ label.control-label
 
 .form-group.form-group-lg.label-floating input.form-control:-webkit-autofill ~ label.control-label label.control-label
 {
-    top: -32px; !important
-    left: 0; !important
-    font-size: 14px; !important
-    line-height: 1.0; !important
+    top: -32px;
+    left: 0;
+    font-size: 14px;
+    line-height: 1.0;
 }
 
 select.form-control
 {
-    border: 0; !important
-    box-shadow: none; !important
-    border-radius: 0; !important
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
 }
 
 .form-group.is-focused select.form-control
 {
-    box-shadow: none; !important
-    border-color: #D2D2D2; !important
+    box-shadow: none;
+    border-color: #D2D2D2;
 }
 
 select.form-control[multiple], .form-group.is-focused select.form-control[multiple]
 {
-    height: 85px; !important
+    height: 85px;
 }
 
 .input-group-btn .btn
@@ -2638,26 +2638,26 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 
 .form-control-feedback
 {
-    opacity: 0; !important
+    opacity: 0;
 }
 
 .has-success .form-control-feedback
 {
-    color: #4caf50; !important
-    opacity: 1; !important
+    color: #4caf50;
+    opacity: 1;
 }
 
 .has-error .form-control-feedback
 {
-    color: #f44336; !important
-    opacity: 1; !important
+    color: #f44336;
+    opacity: 1;
 }
 
 .pagination > li > a,
 .pagination > li > span
 {
     border: 0;
-    border-radius: 30px !important;
+    border-radius: 30px ;
     transition: all .3s;
     padding: 0px 11px;
     margin: 0 3px;
@@ -3061,13 +3061,13 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 .navbar .navbar-form .form-group .form-control,
 .navbar .navbar-form .form-control
 {
-    border-color: inherit; !important
-    color: inherit; !important
-    padding: 0; !important
-    margin: 0; !important
-    height: 28px; !important
-    font-size: 14px; !important
-    line-height: 1.42857; !important
+    border-color: inherit;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+    height: 28px;
+    font-size: 14px;
+    line-height: 1.42857;
 }
 
 .navbar, .navbar.navbar-default
@@ -3099,7 +3099,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 
 .navbar .dropdown-menu, .navbar.navbar-default .dropdown-menu
 {
-    border-radius: 3px !important;
+    border-radius: 3px ;
 }
 
 .navbar .dropdown-menu li > a:hover, .navbar .dropdown-menu li > a:focus, .navbar.navbar-default .dropdown-menu li > a:hover, .navbar.navbar-default .dropdown-menu li > a:focus
@@ -3145,7 +3145,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 
 .navbar.navbar-inverse .dropdown-menu
 {
-    border-radius: 3px !important;
+    border-radius: 3px ;
 }
 
 .navbar.navbar-inverse .dropdown-menu li > a:hover, .navbar.navbar-inverse .dropdown-menu li > a:focus
@@ -3191,7 +3191,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 
 .navbar.navbar-primary .dropdown-menu
 {
-    border-radius: 3px !important;
+    border-radius: 3px ;
 }
 
 .navbar.navbar-primary .dropdown-menu li > a:hover, .navbar.navbar-primary .dropdown-menu li > a:focus
@@ -3237,7 +3237,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 
 .navbar.navbar-success .dropdown-menu
 {
-    border-radius: 3px !important;
+    border-radius: 3px ;
 }
 
 .navbar.navbar-success .dropdown-menu li > a:hover, .navbar.navbar-success .dropdown-menu li > a:focus
@@ -3283,7 +3283,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 
 .navbar.navbar-info .dropdown-menu
 {
-    border-radius: 3px !important;
+    border-radius: 3px ;
 }
 
 .navbar.navbar-info .dropdown-menu li > a:hover, .navbar.navbar-info .dropdown-menu li > a:focus
@@ -3329,7 +3329,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 
 .navbar.navbar-warning .dropdown-menu
 {
-    border-radius: 3px !important;
+    border-radius: 3px ;
 }
 
 .navbar.navbar-warning .dropdown-menu li > a:hover, .navbar.navbar-warning .dropdown-menu li > a:focus
@@ -3375,7 +3375,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 
 .navbar.navbar-danger .dropdown-menu
 {
-    border-radius: 3px !important;
+    border-radius: 3px ;
 }
 
 .navbar.navbar-danger .dropdown-menu li > a:hover, .navbar.navbar-danger .dropdown-menu li > a:focus
@@ -3421,7 +3421,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 
 .navbar.navbar-rose .dropdown-menu
 {
-    border-radius: 3px !important;
+    border-radius: 3px ;
 }
 
 .navbar.navbar-rose .dropdown-menu li > a:hover, .navbar.navbar-rose .dropdown-menu li > a:focus
@@ -3959,8 +3959,8 @@ h2.title
 .nav-tabs > li > a, .nav-tabs > li > a:hover, .nav-tabs > li > a:focus
 {
     background-color: transparent;
-    border: 0 !important;
-    color: #FFFFFF !important;
+    border: 0 ;
+    color: #FFFFFF ;
     font-weight: 500;
 }
 
@@ -4095,12 +4095,12 @@ h2.title
 
 .carousel.carousel-full-nagivation .left
 {
-    cursor: url("../img/arrow-left.png"), url("../img/arrow-left.cur"), default !important;
+    cursor: url("../img/arrow-left.png"), url("../img/arrow-left.cur"), default ;
 }
 
 .carousel.carousel-full-nagivation .right
 {
-    cursor: url("../img/arrow-right.png"), url("../img/arrow-right.cur"), default !important;
+    cursor: url("../img/arrow-right.png"), url("../img/arrow-right.cur"), default ;
 }
 
 .carousel .carousel-control.left
@@ -4234,7 +4234,7 @@ h2.title
 
 .card .card-footer button, .card .card-footer a
 {
-    margin: 0 !important;
+    margin: 0 ;
     position: relative;
     bottom: 25px;
     width: auto;
@@ -4681,7 +4681,7 @@ h2.title
 
 .card-pricing .content
 {
-    padding: 15px !important;
+    padding: 15px ;
 }
 
 .card-pricing .icon
@@ -5577,7 +5577,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly]
     font-size: 1em;
     height: 30px;
     margin: 4px 2px 0;
-    outline: medium none !important;
+    outline: medium none ;
     vertical-align: middle;
     width: 40px;
 }
@@ -7028,7 +7028,7 @@ footer .pull-center
 
 .noUi-state-drag *
 {
-    cursor: inherit !important;
+    cursor: inherit ;
 }
 
 .noUi-horizontal
@@ -7264,8 +7264,8 @@ footer .pull-center
     position: absolute;
     z-index: 1000;
     border: 0;
-    width: 100% !important;
-    left: 0 !important;
+    width: 100% ;
+    left: 0 ;
     height: auto;
     background-color: #FFF;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -7603,7 +7603,7 @@ footer .pull-center
 
 .ripple.ripple-out
 {
-    transition: opacity 0.1s linear 0s !important;
+    transition: opacity 0.1s linear 0s ;
     opacity: 0;
 }
 
@@ -8552,7 +8552,7 @@ footer .pull-center
         display: inline-block;
         text-align: center;
         padding: 10px 0;
-        float: none !important;
+        float: none ;
         width: 100%;
     }
     .navbar.navbar-transparent
@@ -8708,4 +8708,10 @@ footer .pull-center
     {
         margin-top: 15px;
     }
+
+    input
+    {
+      border: 1px solid #ccc; !important
+    }
+
 }
