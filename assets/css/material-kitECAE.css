@@ -8709,11 +8709,11 @@ footer .pull-center
         margin-top: 15px;
     }
 
-    input[type=text]
+    input
     {
       border: 2px solid #ccc; !important
     }
-    input[type=text]:focus
+    input:focus
     {
       border: 2px solid #ddd; !important
     }
