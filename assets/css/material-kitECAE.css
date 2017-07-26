@@ -2058,38 +2058,38 @@ output
 .form-control,
 .form-group .form-control
 {
-    border: 0;
-    background-image: linear-gradient(#184f9e, #184f9e), linear-gradient(#D2D2D2, #D2D2D2);
-    background-size: 0 2px, 100% 1px;
-    background-repeat: no-repeat;
-    background-position: center bottom, center calc(100% - 1px);
-    background-color: transparent;
-    transition: background 0s ease-out;
-    float: none;
-    box-shadow: none;
-    border-radius: 0;
-    font-weight: 400;
+    border: 0; !important
+    background-image: linear-gradient(#184f9e, #184f9e), linear-gradient(#D2D2D2, #D2D2D2); !important
+    background-size: 0 2px, 100% 1px; !important
+    background-repeat: no-repeat; !important
+    background-position: center bottom, center calc(100% - 1px); !important
+    background-color: transparent; !important
+    transition: background 0s ease-out; !important
+    float: none; !important
+    box-shadow: none; !important
+    border-radius: 0; !important
+    font-weight: 400; !important
 }
 
 .form-control::-moz-placeholder,
 .form-group .form-control::-moz-placeholder
 {
-    color: #aaaaaa;
-    font-weight: 400;
+    color: #aaaaaa; !important
+    font-weight: 400; !important
 }
 
 .form-control:-ms-input-placeholder,
 .form-group .form-control:-ms-input-placeholder
 {
-    color: #aaaaaa;
-    font-weight: 400;
+    color: #aaaaaa; !important
+    font-weight: 400; !important
 }
 
 .form-control::-webkit-input-placeholder,
 .form-group .form-control::-webkit-input-placeholder
 {
-    color: #aaaaaa;
-    font-weight: 400;
+    color: #aaaaaa; !important
+    font-weight: 400; !important
 }
 
 .form-control[readonly], .form-control[disabled], fieldset[disabled] .form-control,
@@ -2097,15 +2097,15 @@ output
 .form-group .form-control[disabled], fieldset[disabled]
 .form-group .form-control
 {
-    background-color: transparent;
+    background-color: transparent; !important
 }
 
 .form-control[disabled], fieldset[disabled] .form-control,
 .form-group .form-control[disabled], fieldset[disabled]
 .form-group .form-control
 {
-    background-image: none;
-    border-bottom: 1px dotted #D2D2D2;
+    background-image: none; !important
+    border-bottom: 1px dotted #D2D2D2; !important
 }
 
 .form-group
