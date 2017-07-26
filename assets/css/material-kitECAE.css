@@ -8709,9 +8709,13 @@ footer .pull-center
         margin-top: 15px;
     }
 
-    input
+    input[type=text]
     {
-      border: 1px solid #ccc; !important
+      border: 2px solid #ccc; !important
+    }
+    input[type=text]:focus
+    {
+      border: 2px solid #ddd; !important
     }
 
 }
