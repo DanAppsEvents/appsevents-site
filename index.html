@@ -15,15 +15,40 @@
         <!-- CSS Files -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <link href="assets/css/material-kit.css" rel="stylesheet">
+		<!-- Cookie Bar -->
+		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+
+		<!-- Cookie Bar Script -->	
+		<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+		<script>
+			window.addEventListener("load", function(){
+			window.cookieconsent.initialise({
+			  "palette": {
+				"popup": {
+				  "background": "#efefef",
+				  "text": "#404040"
+				},
+				"button": {
+				  "background": "#5cb85c",
+				  "text": "#ffffff"
+				}
+			  },
+			  "theme": "classic",
+			  "position": "bottom-right",
+			  "content": {
+				"href": "https://appsevents.com/terms.html"
+			  }
+			})});
+			</script>
 	
        <!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126853830-1"></script>
 	<script>
- 	window.dataLayer = window.dataLayer || [];
- 	function gtag(){dataLayer.push(arguments);}
-	 gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		 gtag('js', new Date());
 
- 	gtag('config', 'UA-126853830-1');
+		gtag('config', 'UA-126853830-1');
 	</script>
 	
 	<!-- Facebook Pixel Code -->
@@ -318,7 +343,7 @@
                                                 <th class="text-left">Type of Event</th>
                                                 <th></th>
                                             </tr> 
-					   <tr>
+											<tr>
                                                 <td>November 2nd 2018</td>
                                                 <td>
                                                     <a href="http://hartford.appsevents.com/">Hartford, Connecticut</a>
@@ -329,7 +354,7 @@
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="http://hartford.appsevents.com/register"><i class="fa fa-ticket"></i></a>
                                                 </td>
                                             </tr> 	
-					    <tr>
+											<tr>
                                                 <td>November 15th 2018</td>
                                                 <td>
                                                     <a href="http://seattlebc.appsevents.com/">Seattle, Washington</a>
@@ -340,7 +365,7 @@
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="http://seattlebc.appsevents.com/register"><i class="fa fa-ticket"></i></a>
                                                 </td>
                                             </tr> 													
-					    <tr>
+											<tr>
                                                 <td>January 22nd 2019</td>
                                                 <td>
                                                     <a href="#">Lebanon, New Hampshire</a>
@@ -351,7 +376,7 @@
                                                     <a class="btn btn-success btn-round btn-sm disabled" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="#"><i class="fa fa-ticket"></i></a>
                                                 </td>
                                             </tr>
-				            <tr>
+											<tr>
                                                 <td>August 6th 2019</td>
                                                 <td>
                                                     <a href="http://maine.appsevents.com/">Biddeford, Maine</a>
@@ -362,7 +387,7 @@
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="http://maine.appsevents.com/register"><i class="fa fa-ticket"></i></a>
                                                 </td>
                                             </tr> 
-					    <tr>
+											<tr>
                                                 <td>August 6th 2019</td>
                                                 <td>
                                                     <a href="http://maine.appsevents.com/">Biddeford, Maine</a>
@@ -373,7 +398,7 @@
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="http://maine.appsevents.com/register"><i class="fa fa-ticket"></i></a>
                                                 </td>
                                             </tr>
-					    <tr>
+											<tr>
                                                 <td>August 7th - 8th 2019</td>
                                                 <td>
                                                     <a href="http://maine.appsevents.com/">Biddeford, Maine</a>
@@ -384,7 +409,7 @@
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="http://maine.appsevents.com/register"><i class="fa fa-ticket"></i></a>
                                                 </td>
                                             </tr> 		
-					    <tr>
+											<tr>
                                                 <td>August 21st - 22nd 2019</td>
                                                 <td>
                                                     <a href="http://seattle.appsevents.com/">Seattle, Washington</a>
@@ -405,7 +430,7 @@
     								UK</a> | <a href="#europeEvents">
                                     Europe</a> | <a href="#middle-eastEvents">
                                     Middle East</a> | <a href="#latin-americaEvents">
-			            Latin America</a></p>
+									Latin America</a></p>
                                 </div>
                                 <div class="col-md-6">
                                     <p class="text-right"><a href="#all-events">Back to top<i class="material-icons">keyboard_arrow_up</i></a></p>
@@ -441,7 +466,7 @@
                                                 <th class="text-left">Type of Event</th>
                                                 <th></th>
                                             </tr>  
-				            <tr>
+											<tr>
                                                 <td>October 6th - 7th 2018</td>
                                                 <td>
                                                     <a href="#">Singapore</a>
@@ -452,7 +477,7 @@
                                                     <a class="btn btn-success btn-round btn-sm disabled" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="#"><i class="fa fa-ticket"></i></a>
                                                 </td>
                                             </tr> 
-						<tr>
+											<tr>
                                                 <td>November 16th 2018</td>
                                                 <td>
                                                     <a href="http://india.appsevents.com/">Bangalore, India</a>
@@ -529,7 +554,7 @@
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="http://southkorea.appsevents.com/register"><i class="fa fa-ticket"></i></a>
                                                 </td>
                                             </tr>  
-					   <tr>
+											<tr>
                                                 <td>December 7th 2018</td>
                                                 <td>
                                                     <a href="https://taiwan.appsevents.com/">Taiwan</a>
@@ -540,7 +565,7 @@
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="https://taiwan.appsevents.com/register"><i class="fa fa-ticket"></i></a>
                                                 </td>
                                             </tr> 		
-					    <tr>
+											<tr>
                                                 <td>December 8th - 9th 2018</td>
                                                 <td>
                                                     <a href="https://taiwan.appsevents.com/">Taiwan</a>
@@ -561,7 +586,7 @@
     								UK</a> | <a href="#europeEvents">
                                     Europe</a> | <a href="#middle-eastEvents">
                                     Middle East</a> | <a href="#latin-americaEvents">
-			            Latin America</a></p>
+									Latin America</a></p>
                                 </div>
                                 <div class="col-md-6">
                                     <p class="text-right"><a href="#all-events">Back to top<i class="material-icons">keyboard_arrow_up</i></a></p>
@@ -597,7 +622,7 @@
                                                 <th class="text-left">Type of Event</th>
                                                 <th></th>
                                             </tr> 
-					    <tr>
+											<tr>
                                                 <td>October - December 2018</td>
                                                 <td>
                                                     <a href="https://applieddigitalskills.appsevents.com/">Edinburgh</a>
@@ -619,7 +644,7 @@
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="https://applieddigitalskills.appsevents.com/"><i class="fa fa-ticket"></i></a>
                                                 </td>
                                             </tr>
-					    <tr>
+											<tr>
                                                 <td>October - December 2018</td>
                                                 <td>
                                                     <a href="https://applieddigitalskills.appsevents.com/">Manchester</a>
@@ -630,7 +655,7 @@
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="https://applieddigitalskills.appsevents.com/"><i class="fa fa-ticket"></i></a>
                                                 </td>
                                             </tr>
-					    <tr>
+											<tr>
                                                 <td>February 1st 2019</td>
                                                 <td>
                                                     <a href="https://aberdeen.appsevents.com/">Aberdeen</a>
@@ -651,7 +676,7 @@
     								UK</a> | <a href="#europeEvents">
                                     Europe</a> | <a href="#middle-eastEvents">
                                     Middle East</a> | <a href="#latin-americaEvents">
-			            Latin America</a></p>
+									Latin America</a></p>
                                 </div>
                                 <div class="col-md-6">
                                     <p class="text-right"><a href="#all-events">Back to top<i class="material-icons">keyboard_arrow_up</i></a></p>
@@ -687,8 +712,8 @@
                                                 <th class="text-left">Location</th>
                                                 <th class="text-left">Type of Event</th>
                                                 <th></th>
-                                          </tr> 
-					<tr>
+											</tr> 
+											<tr>
                                                 <td>October 13th 2018</td>
                                                 <td>
                                                     <a href="https://portugal.appsevents.com/">Carcavelos, Portugal</a>
@@ -698,8 +723,8 @@
                                                     <a class="btn btn-warning btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="More Info" href="http://portugal.appsevents.com/"><i class="material-icons">info</i></a>
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="http://portugal.appsevents.com/register"><i class="fa fa-ticket"></i></a>
                                                 </td>
-					</tr>
-					<tr>
+											</tr>
+											<tr>
                                                 <td>October 14th 2018</td>
                                                 <td>
                                                     <a href="https://portugal.appsevents.com/">Carcavelos, Portugal</a>
@@ -709,8 +734,8 @@
                                                     <a class="btn btn-warning btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="More Info" href="http://portugal.appsevents.com/"><i class="material-icons">info</i></a>
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="http://portugal.appsevents.com/register"><i class="fa fa-ticket"></i></a>
                                                 </td>
-					</tr>	
-				        <tr>
+											</tr>	
+											<tr>
                                                 <td>October 26th 2018</td>
                                                 <td>
                                                     <a href="http://italy.appsevents.com/">Rome, Italy</a>
@@ -720,8 +745,8 @@
                                                     <a class="btn btn-warning btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="More Info" href="http://italy.appsevents.com/"><i class="material-icons">info</i></a>
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="http://italy.appsevents.com/register"><i class="fa fa-ticket"></i></a>
                                                 </td>
-					</tr>
-					<tr>
+											</tr>
+											<tr>
                                                 <td>October 26th 2018</td>
                                                 <td>
                                                     <a href="http://italy.appsevents.com/">Rome, Italy</a>
@@ -731,8 +756,8 @@
                                                     <a class="btn btn-warning btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="More Info" href="http://italy.appsevents.com/"><i class="material-icons">info</i></a>
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="http://italy.appsevents.com/register"><i class="fa fa-ticket"></i></a>
                                                 </td>
-					</tr>
-					<tr>
+											</tr>
+											<tr>
                                                 <td>October 26th 2018</td>
                                                 <td>
                                                     <a href="http://italy.appsevents.com/">Rome, Italy</a>
@@ -742,8 +767,8 @@
                                                     <a class="btn btn-warning btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="More Info" href="http://italy.appsevents.com/"><i class="material-icons">info</i></a>
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="http://italy.appsevents.com/register"><i class="fa fa-ticket"></i></a>
                                                 </td>
-					</tr>
-					<tr>
+											</tr>
+											<tr>
                                                 <td>October 27th - 28th 2018</td>
                                                 <td>
                                                     <a href="http://italy.appsevents.com/">Rome, Italy</a>
@@ -753,8 +778,8 @@
                                                     <a class="btn btn-warning btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="More Info" href="http://italy.appsevents.com/"><i class="material-icons">info</i></a>
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="http://italy.appsevents.com/register"><i class="fa fa-ticket"></i></a>
                                                 </td>
-					</tr>	
-				        <tr>
+											</tr>	
+											<tr>
                                                 <td>November 15th - 16th 2018</td>
                                                 <td>
                                                     <a href="https://berlin.appsevents.com/">Berlin, Germany</a>
@@ -776,7 +801,7 @@
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="https://berlin.appsevents.com/register"><i class="fa fa-ticket"></i></a>
                                                 </td>
                                             </tr> 		
-					<tr>
+											<tr>
                                                 <td>November 22nd - 23rd 2018</td>
                                                 <td>
                                                     <a href="http://certification.appsevents.com/">Prague, Czech Republic</a>
@@ -786,7 +811,7 @@
                                                     <a class="btn btn-warning btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="More Info" href="http://certification.appsevents.com/"><i class="material-icons">info</i></a>
                                                     <a class="btn btn-success btn-round btn-sm" data-toggle="tooltip" data-placement="top" title="Get Tickets" href="http://certification.appsevents.com/register"><i class="fa fa-ticket"></i></a>
                                                 </td>
-					</tr>	
+											</tr>	
                                         </tbody>
                                     </table>
                                 </div>
@@ -797,7 +822,7 @@
     								UK</a> | <a href="#europeEvents">
                                     Europe</a> | <a href="#middle-eastEvents">
                                     Middle East</a> | <a href="#latin-americaEvents">
-			            Latin America</a></p>
+									Latin America</a></p>
                                 </div>
                                 <div class="col-md-6">
                                     <p class="text-right"><a href="#all-events">Back to top<i class="material-icons">keyboard_arrow_up</i></a></p>
@@ -843,7 +868,7 @@
     								UK</a> | <a href="#europeEvents">
                                     Europe</a> | <a href="#middle-eastEvents">
                                     Middle East</a> | <a href="#latin-americaEvents">
-			            Latin America</a></p>
+									Latin America</a></p>
                                 </div>
                                 <div class="col-md-6">
                                     <p class="text-right"><a href="#all-events">Back to top<i class="material-icons">keyboard_arrow_up</i></a></p>
@@ -889,7 +914,7 @@
     								UK</a> | <a href="#europeEvents">
                                     Europe</a> | <a href="#middle-eastEvents">
                                     Middle East</a> | <a href="#latin-americaEvents">
-			            Latin America</a></p>
+									Latin America</a></p>
                                 </div>
                                 <div class="col-md-6">
                                     <p class="text-right"><a href="#all-events">Back to top<i class="material-icons">keyboard_arrow_up</i></a></p>
@@ -966,7 +991,7 @@
                         <div class="col-md-4">
                             <a href="#pablo"><h5>About Us</h5></a>
                             <p>AppsEvents run G Suite (formerly Google Apps) bootcamps and summits for educators, leaders and administrators all around the world.</p>
-                            <p><br><img src="assets/img/gcp-partner-1-8_%402x.png" alt="Google for Education Professional Development Partner" width="60%"></p>
+                            <p><br><img src="assets/img/gcp-partner-1-8_%402x.png" alt="Google for Education Professional Development Partner" width="40%"></p>
                             <p><br><h5>Member</h5></p>
                             <p><img src="https://raw.githubusercontent.com/DanAppsEvents/appsevents-site/61205c85e0dd4209a2404eaf2152bd7749b185d5/assets/img/earcos-logo-flat-white.png" width="200px"></p>
                             <p><br><img src="https://raw.githubusercontent.com/DanAppsEvents/appsevents-site/ecb9c1f5962a5190b916958addcc0a4dc29f1257/assets/img/ecis-logo-flatwhite.png" width="150px"></p>
@@ -993,7 +1018,7 @@
                                 <li>
                                     <a href="#middle-eastEvents">Middle East events</a>
                                 </li>
-				<li>
+								<li>
                                     <a href="#latin-americaEvents">Latin America</a>
                                 </li>
                             </ul>
@@ -1019,7 +1044,7 @@
                                 <li>
                                     <a href="https://docs.google.com/a/appsevents.com/forms/d/e/1FAIpQLScJ9lT5WCSUeqqdrKirFcd07torHPFDFD9q9iQjBj9PlybLTw/viewform" target="blank">Become a Sponsor</a> 
                                 </li>   
-				 <li>
+								<li>
                                     <a href="https://www.csj.edu/academics/professional-development/googletraining/" target="blank">Graduate Credit</a>
                                 </li>
                             </ul>
@@ -1039,15 +1064,20 @@
                     </div>
                 </div>
                 <ul class="social-buttons">
-                    <li>
-                        <a href="http://twitter.com/AppsEvents1" class="btn btn-just-icon btn-white btn-simple btn-lg"><i class="fa fa-twitter"></i></a>
+					<li>
+                        <a href="https://www.facebook.com/AppsEvents/" target="_blank" class="btn btn-just-icon btn-white btn-simple btn-lg"><i class="fa fa-facebook"></i></a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/communities/103776281271850350584" class="btn btn-just-icon btn-white btn-simple btn-lg"><i class="fa fa-google-plus"></i></a>
+                        <a href="http://twitter.com/AppsEvents1" target="_blank" class="btn btn-just-icon btn-white btn-simple btn-lg"><i class="fa fa-twitter"></i></a>
                     </li>
-		    	<a href="https://www.youtube.com/channel/UCAEa8mirLD_S6VAO-TUQhyA" class="btn btn-just-icon btn-white btn-simple btn-lg"><i class="fa fa-youtube"></i></a>	
                     <li>
-                        <a href="https://www.linkedin.com/company/appsevents---google-in-education-summits" class="btn btn-just-icon btn-white btn-simple btn-lg"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://plus.google.com/communities/103776281271850350584" target="_blank" class="btn btn-just-icon btn-white btn-simple btn-lg"><i class="fa fa-google-plus"></i></a>
+                    </li>
+					<li>
+						<a href="https://www.youtube.com/channel/UCAEa8mirLD_S6VAO-TUQhyA" target="_blank" class="btn btn-just-icon btn-white btn-simple btn-lg"><i class="fa fa-youtube"></i></a>
+					</li>			
+                    <li>
+                        <a href="https://www.linkedin.com/company/appsevents---google-in-education-summits" target="_blank" class="btn btn-just-icon btn-white btn-simple btn-lg"><i class="fa fa-linkedin"></i></a>
                     </li>
                 </ul>
                 <div class="copyright pull-center">
@@ -1095,6 +1125,5 @@ $(document).ready(function(){
   });
 });
 </script>
-	    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?theme=white&always=1&remember=30&privacyPage=https%3A%2F%2Fappsevents.com%2Fterms.html"></script>
     </body>
 </html>
