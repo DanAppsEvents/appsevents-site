@@ -14,6 +14,32 @@
         <!-- CSS Files -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <link href="assets/css/material-kit.css" rel="stylesheet">
+		
+		<!-- Cookie Bar -->
+		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+		
+		<!-- Cookie Bar Script -->	
+		<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+		<script>
+			window.addEventListener("load", function(){
+			window.cookieconsent.initialise({
+			  "palette": {
+				"popup": {
+				  "background": "#efefef",
+				  "text": "#404040"
+				},
+				"button": {
+				  "background": "#5cb85c",
+				  "text": "#ffffff"
+				}
+			  },
+			  "theme": "classic",
+			  "position": "bottom-right",
+			  "content": {
+				"href": "https://appsevents.com/terms.html"
+			  }
+			})});
+			</script>	
 	    
 	<script>
   	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -217,55 +243,34 @@
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <h2 class="title" style="margin-bottom:0;"><small>Global/Regional Summit Partners</small></h2>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6"> 
                     <div class="img text-center">
-                        <a href="http://promevo.com">
-                            <img alt="Promevo" src="assets/img/sponsors/promevo.jpg" width="200">
+                        <a href="http://www.texthelp.com/">
+                            <img src="assets/img/sponsors/texthelp_logo.png" alt="Texthelp" width="200" />
                         </a>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
+                </div> 
+               <div class="col-md-4 col-sm-6"> 
                     <div class="img text-center">
-                        <a href="http://hapara.com">
-                            <img alt="Hapara" src="assets/img/sponsors/hapara.jpg" width="200">
+                        <a href="http://www.rm.com/">
+                            <img src="assets/img/sponsors/RM.jpg" alt="RM Education" width="200" />
                         </a>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="img text-center">
-                        <a href="http://texthelp.com">
-                            <img alt="Texthelp" src="assets/img/sponsors/texthelp.jpg" width="200">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="img text-center">
-                        <a href="http://balsamiq.com">
-                            <img alt="Balsamiq" src="assets/img/sponsors/balsamiq.jpg" width="200">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
+                </div>   
+				<div class="col-md-4 col-sm-6">
                     <div class="img text-center">
                         <a href="http://sendloop.com">
-                            <img alt="Sendloop" src="assets/img/sponsors/sendloop.jpg" width="200">
+                            <img src="assets/img/sponsors/sendloop.jpg" alt="Sendloop" width="200" />
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+				<div class="col-md-6 col-md-offset-3">
                     <div class="img text-center">
-                        <a href="http://tweetwall.com">
-                            <img alt="Tweetwall" src="assets/img/sponsors/tweetwall.jpg" width="200">
+                        <a href="https://www.soundtrap.com/">
+                            <img src="assets/img/sponsors/Soundtrap.png" alt="Soundtrap" width="200" />
                         </a>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-md-offset-4 col-sm-offset-3">
-                    <div class="img text-center">
-                        <a href="http://tieonline.com">
-                            <img alt="The International Educator" src="assets/img/sponsors/tie.jpg" width="200">
-                        </a>
-                    </div>
-                </div>
+                </div>    
             </div>
         </div>
         <!--     *********    FOOTER    *********      -->
@@ -325,11 +330,11 @@
                         <div class="col-md-4">
                             <h5>Subscribe to the Newsletter</h5>
                             <p>Join over 16,000 subscribers and receive a weekly newsletter with the latest G Suite updates, tips and tricks! We'll also share special offers for upcoming events.</p>
-                            <form action="https://optin.sndlp.com/yc1/g78/2cc4d5e2" class="form form-newsletter" method="post">
+                            <form class="form form-newsletter" method="POST" action="http://optin.sndlp.com/yc1/o78/13ab0f71">
                                 <div class="form-group">
-                                    <input class="form-control" id="Fields_EmailAddress" name="Fields[EmailAddress]" placeholder="example@example.com" type="email" value="">
+                                    <input class="form-control" type="text" name="Fields[EmailAddress]" id="Fields_EmailAddress" value="" placeholder="example@example.com">
                                 </div>
-                                <button class="btn btn-primary btn-just-icon" id="Command" name="Command" type="submit" value="Subscribe">
+                                <button class="btn btn-primary btn-just-icon" type="submit" name="Command" id="Command" value="Subscribe">
                                     <i class="material-icons">mail</i>
                                 </button>
                             </form>
@@ -343,6 +348,9 @@
                     <li>
                         <a class="btn btn-just-icon btn-white btn-simple btn-lg" href="https://plus.google.com/communities/103776281271850350584"><i class="fa fa-google-plus"></i></a>
                     </li>
+					<li>
+						<a href="https://www.youtube.com/channel/UCAEa8mirLD_S6VAO-TUQhyA" class="btn btn-just-icon btn-white btn-simple btn-lg"><i class="fa fa-youtube"></i></a>
+					</li>	
                     <li>
                         <a class="btn btn-just-icon btn-white btn-simple btn-lg" href="https://www.linkedin.com/company/appsevents---google-in-education-summits"><i class="fa fa-linkedin"></i></a>
                     </li>
