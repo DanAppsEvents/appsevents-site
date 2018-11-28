@@ -8710,3 +8710,12 @@ footer .pull-center
         margin-top: 15px;
     }
 }
+
+@media (max-width: 375px)
+{
+	.page-header
+    {
+        height: auto;
+        min-height: 85vh;
+    }
+}
