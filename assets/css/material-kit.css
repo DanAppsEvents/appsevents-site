@@ -8716,6 +8716,6 @@ footer .pull-center
 	.page-header
     {
         height: auto;
-        min-height: 85vh;
+        min-height: 100vh;
     }
 }
