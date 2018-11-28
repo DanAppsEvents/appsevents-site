@@ -6124,7 +6124,9 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly]
 
 .page-header
 {
-    min-height: 100vh;
+    
+	min-height: 500px;
+	max-height: 500px;
     background-position: center center;
     background-size: cover;
     margin: 0;
@@ -6139,7 +6141,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly]
 
 .page-header .container
 {
-    padding-top: 25vh;
+    padding-top: 100px;
     color: #FFFFFF;
 }
 
@@ -8617,7 +8619,7 @@ footer .pull-center
     .page-header
     {
         height: auto;
-        min-height: 100vh;
+        min-height: 68vh;
     }
     .page-header .iframe-container
     {
