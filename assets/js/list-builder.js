@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var delay = 3000; // milliseconds
+    var delay = 10000; // milliseconds
     var cookie_expire = 0; // days
 
     var cookie = localStorage.getItem("list-builder");
@@ -9,12 +9,8 @@ $(document).ready(function() {
         cookie = 0;
     }
 
-    setTimeout(() => {
-    $(document).on("mouseout", evt => {
-        if(evt.toElement === null && evt.relatedTarget === null) {
-            $(evt.currentTarget).off("mouseout");
-            // An intent to exit has happened
-			$("#list-builder").delay(delay).fadeIn("fast", () => {
+    if(((new Date()).getTime() - cookie) / (1000 * 60 * 60 * 24) > cookie_expire) {
+        $("#list-builder").delay(delay).fadeIn("fast", () => {
             $("#popup-box").fadeIn("fast", () => {});
         });
 
@@ -33,10 +29,7 @@ $(document).ready(function() {
             $("#list-builder, #popup-box").hide();
             localStorage.setItem("list-builder", (new Date()).getTime());
         });
-        }
-    });
-}, 5000);
-	
+    } 
 	
 });
 
