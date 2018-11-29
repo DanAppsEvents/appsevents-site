@@ -29,5 +29,10 @@ $(document).ready(function() {
             localStorage.setItem("list-builder", (new Date()).getTime());
         });
     }
-
 });
+
+setTimeout(() => {
+$("#list-builder").fadeIn("fast", () => {
+$("#popup-box").fadeIn("fast", () => {});
+});
+}, delay);
