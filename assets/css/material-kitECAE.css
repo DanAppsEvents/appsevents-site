@@ -4765,7 +4765,7 @@ h2.title
 
 .card-pricing.card-background:after
 {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(160, 135, 63, 0); 
 }
 
 .card-raised

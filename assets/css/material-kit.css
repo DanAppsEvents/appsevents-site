@@ -4764,7 +4764,7 @@ h2.title
 
 .card-pricing.card-background:after
 {
-    background-color: rgba(0, 0, 0, 0.7);
+   background-color: rgba(0, 0, 0, 0.2); 
 }
 
 .card-raised
@@ -6179,7 +6179,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly]
 
 .header-filter::before
 {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .header-filter .container
