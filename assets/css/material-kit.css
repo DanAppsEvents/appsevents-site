@@ -4764,7 +4764,7 @@ h2.title
 
 .card-pricing.card-background:after
 {
-   background-color: rgba(0, 0, 0, 0.2); 
+  /* background-color: rgba(0, 0, 0, 0.2); */
 }
 
 .card-raised
@@ -4818,7 +4818,7 @@ h2.title
     left: 0;
     top: 0;
     content: "";
-    background-color: rgba(0, 0, 0, 0.56);
+   /* background-color: rgba(0, 0, 0, 0.56); */
     border-radius: 6px;
 }
 
@@ -6096,7 +6096,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly]
     left: 0;
     top: 0;
     content: "";
-    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: rgba(0, 0, 0, 0.7); */
 }
 
 .section-image .container
@@ -8782,4 +8782,16 @@ footer .pull-center
 #popup-box button {
     padding: 10px;
     border: 1px solid #333;
+}
+
+.card-title-fix {
+	text-shadow: 2px 2px 8px #000;
+}
+
+.text-info-fix{
+	text-shadow: 2px 2px 8px #000;
+}
+
+.card-description-fix{
+	text-shadow: 2px 2px 8px #000;
 }
